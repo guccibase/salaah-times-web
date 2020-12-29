@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/salaah-times/static/css/main.b7190b58.chunk.css",
+    "main.js": "/salaah-times/static/js/main.90c46a16.chunk.js",
+    "main.js.map": "/salaah-times/static/js/main.90c46a16.chunk.js.map",
+    "runtime-main.js": "/salaah-times/static/js/runtime-main.4ecb2f79.js",
+    "runtime-main.js.map": "/salaah-times/static/js/runtime-main.4ecb2f79.js.map",
+    "static/js/2.6faf27d7.chunk.js": "/salaah-times/static/js/2.6faf27d7.chunk.js",
+    "static/js/2.6faf27d7.chunk.js.map": "/salaah-times/static/js/2.6faf27d7.chunk.js.map",
+    "static/js/3.c6871812.chunk.js": "/salaah-times/static/js/3.c6871812.chunk.js",
+    "static/js/3.c6871812.chunk.js.map": "/salaah-times/static/js/3.c6871812.chunk.js.map",
+    "index.html": "/salaah-times/index.html",
+    "static/css/main.b7190b58.chunk.css.map": "/salaah-times/static/css/main.b7190b58.chunk.css.map",
+    "static/js/2.6faf27d7.chunk.js.LICENSE.txt": "/salaah-times/static/js/2.6faf27d7.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/salaah-times/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ecb2f79.js",
+    "static/js/2.6faf27d7.chunk.js",
+    "static/css/main.b7190b58.chunk.css",
+    "static/js/main.90c46a16.chunk.js"
+  ]
+}
