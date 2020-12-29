@@ -1,0 +1,48 @@
+.privacy-screen {
+	display: flex;
+	height: 100vh;
+	max-width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 10px;
+}
+
+.privacy_policy {
+	font-size: 15px;
+	padding: 20px;
+	padding: 10px;
+	border: 1px solid var(--deenify-background);
+	min-width: 660px;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.privacy_policy::-webkit-scrollbar {
+	display: none;
+}
+
+.horizontal-rule {
+	border: 1px dotted gray;
+	display: block;
+	width: 40%;
+	margin: auto;
+}
+.privacy_section_notes {
+	padding-bottom: 30px;
+	line-height: 2em;
+}
+
+.privacy_section_header {
+	padding-top: 30px;
+}
+.privacy_section_subheader {
+	padding: 15px 0;
+}
+.privacy_header {
+	text-align: center;
+}
+
+.basmalah {
+	text-align: center;
+}
