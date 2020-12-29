@@ -1,5 +1,5 @@
 {
-	"homepage": "http://guccibase.github.io/salaah-times",
+	"homepage": "https://guccibase.github.io/salaah-times-web/",
 	"name": "salaah-times",
 	"version": "0.1.0",
 	"private": true,
@@ -14,7 +14,7 @@
 		"web-vitals": "^0.2.4"
 	},
 	"scripts": {
-		"predeploy": "npm run build",
+		"predeploy": "yarn run build",
 		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
