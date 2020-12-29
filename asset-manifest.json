@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/salaah-times/static/css/main.b7190b58.chunk.css",
-    "main.js": "/salaah-times/static/js/main.90c46a16.chunk.js",
-    "main.js.map": "/salaah-times/static/js/main.90c46a16.chunk.js.map",
+    "main.js": "/salaah-times/static/js/main.64106e67.chunk.js",
+    "main.js.map": "/salaah-times/static/js/main.64106e67.chunk.js.map",
     "runtime-main.js": "/salaah-times/static/js/runtime-main.4ecb2f79.js",
     "runtime-main.js.map": "/salaah-times/static/js/runtime-main.4ecb2f79.js.map",
     "static/js/2.6faf27d7.chunk.js": "/salaah-times/static/js/2.6faf27d7.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.4ecb2f79.js",
     "static/js/2.6faf27d7.chunk.js",
     "static/css/main.b7190b58.chunk.css",
-    "static/js/main.90c46a16.chunk.js"
+    "static/js/main.64106e67.chunk.js"
   ]
 }
