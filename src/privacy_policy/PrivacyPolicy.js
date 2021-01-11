@@ -14,58 +14,43 @@ function PrivacyPolicy() {
 				</div>
 				<PrivacyPolicySections
 					header="PRIVACY NOTICE"
-					subheader="Last updated December 28, 2020"
+					subheader="Last updated Januray 10, 2020"
 					notes={privacyNotice}
 				/>
 				<PrivacyPolicySections
 					header="1. WHAT INFORMATION DO WE COLLECT?"
 					subheader="We do not collect any information"
-					notes={informationWeCollect}
 				/>
 				<PrivacyPolicySections
 					header="2. WILL YOUR INFORMATION BE SHARED WITH ANYONE?"
 					subheader="Your information will not be shared with anyone"
-					notes={informationShared}
 				/>
-				<PrivacyPolicySections
-					header="3. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?"
-					subheader="No"
-					notes={informationTransferred}
-				/>
+				<PrivacyPolicySections header="3. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?" subheader="No" />
 				<PrivacyPolicySections
 					header="4. HOW LONG DO WE KEEP YOUR INFORMATION?"
 					subheader="We do not keep your information"
-					notes={howLongKeepInfo}
 				/>
 				<PrivacyPolicySections
 					header="5. HOW DO WE KEEP YOUR INFORMATION SAFE?"
 					subheader="We do not keep your information"
-					notes={howKeepInfoSafe}
 				/>
 				<PrivacyPolicySections
 					header="6. DO WE COLLECT INFORMATION FROM MINORS?"
 					subheader="We do not knowingly collect data from anyone including minors."
-					notes={infoFromMinors}
 				/>
 				<PrivacyPolicySections
 					header="7. WHAT ARE YOUR PRIVACY RIGHTS?"
-					subheader="You may revoke app permisions and uninstall the app at anytime"
-					notes={privacyRights}
+					subheader="You may stop use and uninstall the app at anytime"
 				/>
-				<PrivacyPolicySections
-					header="8. CONTROLS FOR DO-NOT-TRACK FEATURES"
-					subheader=""
-					notes={privacyNotice}
-				/>
+				<PrivacyPolicySections header="8. CONTROLS FOR DO-NOT-TRACK FEATURES" subheader="" notes={doNotTrack} />
 				<PrivacyPolicySections
 					header="9. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?"
 					subheader="Yes, if you are a resident of California, you are granted specific rights regarding access to your personal information."
-					notes={doNotTrack}
+					notes={caliRights}
 				/>
 				<PrivacyPolicySections
 					header="10. DO WE MAKE UPDATES TO THIS NOTICE?"
 					subheader="Yes, we will update this notice as necessary to stay compliant with relevant laws."
-					notes={caliRights}
 				/>
 				<PrivacyPolicySections
 					header="11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?"
@@ -74,7 +59,7 @@ function PrivacyPolicy() {
 				/>
 				<PrivacyPolicySections
 					header="12. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?"
-					subheader="You have the right to revoke apps permission to get access to your location"
+					subheader="We do not collect any data from you"
 				/>
 			</div>
 		</div>
@@ -82,25 +67,7 @@ function PrivacyPolicy() {
 }
 
 let privacyNotice =
-	'Thank you for downloading Salaah Times (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to our apps access, please email us\n.When you use our mobile application, as the case may be (the "App") and more generally, use any of our services (the "Services", which include the App), we appreciate that you are trusting us with access to your location. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what  our app does, what access it has and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our app immediately. This privacy notice applies to all functions of our app. Please read this privacy notice carefully as it will help you understand what  our app does with your location.';
-
-let informationWeCollect =
-	'If you use our App, we do not collect any of your information. The app (Salaah Times) will only ask for permission to access your location which will be used to accurately get and display the current Islamic prayer times of your location. We do not collect or keep your location anywhere. It stays in your device. If you wish to not grant it access you can always deny to give it access and uninstall the app or you can grant it access only while the app is in use. If you wish to change the access or permissions, " you may do so in your device’s settings.The access is primarily needed to show and maintain " accurate prayer timings';
-
-let informationShared = 'We do not collect, store or share any of your information.';
-
-let informationTransferred = 'We do not collect, store , share or transfer any of your information.';
-
-let howLongKeepInfo = 'We do not collect, keep, share or transfer any of your information.';
-
-let howKeepInfoSafe = 'We do not collect, keep, share or transfer any of your information.';
-
-let infoFromMinors =
-	'We do not collect, keep, share or transfer any  information from minors. By using the App, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the App.';
-
-let privacyRights =
-	'If you are resident in the European Economic Area and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here: http://ec.europa.eu/justice/data-protect ion/bodies/authorities/index_en.htm. If you are resident in Switzerland, the contact details for the data protection authorities are available here: https://www.edoeb.admin.ch/edoeb/en/home.html. If you have questions or comments about your privacy rights, you may email us. If you would at any time like to revoke access to your location or uninstall our app, you can: do so in your apps settings and uninstall the app.';
-
+	'Thank you for downloading Al-Qur\'an (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, please email us\n.When you use our mobile application, as the case may be (the "App") and more generally, use any of our services (the "Services", which include the App), we appreciate that you are trusting us. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what our app does and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our app immediately. This privacy notice applies to all functions of our app.';
 let doNotTrack =
 	'Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (“DNT”) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage, no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.';
 
